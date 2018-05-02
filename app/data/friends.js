@@ -1,5 +1,5 @@
-var friendsArr = [
 
+var friendArr = [
 {
     "name":"Leslie",
     "photo":"https://amp.businessinsider.com/images/54b445de69bedd3d4332504c-750-562.jpg",
@@ -63,4 +63,5 @@ var friendsArr = [
         4,
         5
     ]
-}]
+}
+]

@@ -10,6 +10,7 @@ var friends = require("../data/friends.js");
 module.exports = function (app) {
 
   app.get("/api/friends", function (req, res) {
+    //var friends = {name: name, photo: photo}
     res.json(friends);
   });
 
@@ -40,8 +41,11 @@ module.exports = function (app) {
 
       friends.push(newfriend);
 
+     
+      }
+
     }
 
-  });
+  );
 
 }
